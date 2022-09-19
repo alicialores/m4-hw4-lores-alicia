@@ -1,1 +1,44 @@
+/*Change the background color of at least one element */
+body {
+    background-color: #f5f5f5;
+    color: #708090;
+    max-width: 900px;
+    margin: auto;
+}
 
+/*Change the font-size of one or more elements */
+header {
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+/*Use at least one combined CSS selector */
+section.grammy {
+    text-align: center;
+}
+
+/*Change the text color of one or more elements + Group any CSS rules if appropriate */
+h1, h2 {
+    color: #7393B3;
+    font-family: "Futura"
+}
+
+a {
+    color: grey;
+}
+
+/*Center an image element */
+.Olivia-Billy {
+    display: flex;
+    justify-content: center;
+}
+
+/*Use at least one combined CSS selector */
+p.sources {
+    color:black;
+}
+
+/*Use at least one CSS combinator */
+section > .about-copy {
+    color: blue;
+}
